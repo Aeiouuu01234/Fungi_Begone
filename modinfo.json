@@ -1,0 +1,62 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "no_fungal_growth",
+    "name": "No Fungal Growth",
+    "authors": [ "eltank(Original), LaloTorres(Edit)" ],
+    "description": "Removes the ability of fungaloids to grow and/or modyfy the terrain, with certain exeptions.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "id": "mon_spore",
+    "copy-from": "mon_spore",
+    "type": "MONSTER",
+    "name": { "str": "spore cloud" },
+    "upgrades": false,
+    "special_attacks": [ [ "DISAPPEAR", 1 ] ],
+    "delete": { "special_attacks": [ "PLANT" ] }
+  },
+  {
+    "id": "mon_fungal_blossom",
+    "copy-from": "mon_fungal_blossom",
+    "type": "MONSTER",
+    "name": { "str": "unfertile fungal blossom" },
+    "delete": { "special_attacks": [ "FUNGUS_HAZE" ] }
+  },
+  {
+    "id": "mon_fungaloid",
+    "copy-from": "mon_fungaloid",
+    "type": "MONSTER",
+    "name": { "str": "unfertile fungaloid" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  },
+  {
+    "id": "mon_fungaloid_seeder",
+    "copy-from": "mon_fungaloid_seeder",
+    "type": "MONSTER",
+    "name": { "str": "unfertile giant fungal blossom" },
+    "delete": { "special_attacks": [ "FUNGUS_BIG_BLOSSOM" ] }
+  },
+  {
+    "id": "mon_ant_fungus",
+    "copy-from": "mon_ant_fungus",
+    "type": "MONSTER",
+    "name": { "str": "unfertile fungal ant" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  },
+  {
+    "id": "mon_spider_fungus",
+    "copy-from": "mon_spider_fungus",
+    "type": "MONSTER",
+    "name": { "str": "unfertile fungal spider" },
+    "delete": { "special_attacks": [ "FUNGAL_TRAIL" ] }
+  },
+  {
+    "id": "mon_fungaloid_shambler",
+    "copy-from": "mon_fungaloid_shambler",
+    "type": "MONSTER",
+    "name": { "str": "unfertile fungaloid shambler" },
+    "delete": { "special_attacks": [ "FUNGUS" ] }
+  }
+]
