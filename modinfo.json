@@ -1,8 +1,8 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "no_fungal_growth",
-    "name": "No Fungal Growth",
+    "id": "Fungi_Begone",
+    "name": "Fungi Begone",
     "authors": [ "eltank(Original), Lalo(Edit)" ],
     "description": "Removes the ability of fungaloids to grow and/or modyfy the terrain, with certain exeptions.",
     "category": "rebalance",
